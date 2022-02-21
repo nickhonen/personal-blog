@@ -30,9 +30,14 @@ paginate     = 10
     keywords = "homepage, blog, portfolio"
     images = [""]
 
+# Fixes bug I think
+  [taxonomies]
+  tag      = "tags"
+  category = "categories"
 
   # And you can even create generic menu
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
