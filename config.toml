@@ -1,5 +1,5 @@
 baseurl      = "https://hungry-hawking-a38a0f.netlify.app/"
-title        = "My blog"
+title        = "nickhonen's blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -10,7 +10,7 @@ paginate     = 10
     dateformNum     = "01-02-2006"
 
   # Subtitle for home
-    homeSubtitle = "A simple and beautiful blog"
+    homeSubtitle = "coming 02-22-2022"
     
     github = "https://github.com/nickhonen"   
     twitter = "https://twitter.com/nickhonen4"
@@ -36,8 +36,22 @@ paginate     = 10
   category = "categories"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+  # [[menu.main]]
+  #  identifier = "blog"
+  #  name       = "Blog"
+  #  url        = "/posts"
+
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/nickhonen"
+
+[[params.social]]
+ icon = "twitter"
+  name = "My Twitter"
+  url = "https://twitter.com/nickhonen4"
+
+ 
+
 
