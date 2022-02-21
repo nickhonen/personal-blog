@@ -14,6 +14,7 @@ paginate     = 10
     
     github = "https://github.com/nickhonen"   
     twitter = "https://twitter.com/nickhonen4"
+    leetcode = "https://leetcode.com/nickhonen/"
     email = "nickhonen@gmail.com"
     opengraph = true
     shareTwitter = true
@@ -36,16 +37,14 @@ paginate     = 10
   name = "twitter"
   url = "https://twitter.com/nickhonen4"
 
- 
- 
+[[params.social]]
+  name = "leetcode"
+  url = "https://leetcode.com/nickhonen/"
 
 # Fixes bug I think
 [taxonomies]
   tag      = "tags"
   category = "categories"
-
-
-
 
 [menu]
 [[menu.main]]
@@ -53,10 +52,14 @@ paginate     = 10
   name       = "Progress"
   url        = "https://docs.google.com/spreadsheets/d/1ft73AihxztEmsxfD29WYLCMsv73oqUOMzKgksdcsKLI/edit?usp=sharing"
 
+# posts is a default taxonomy of hugo, not gonna mess with it for now.
 [[menu.main]]
   identifier = "blog"
-  name       = "Blog"
+  name       = "Posts"
   url        = "/posts"
+  weight = -110
+  [menu.main.params]
+    class = 'highlight-menu-item'
 
 
 
