@@ -17,41 +17,48 @@ paginate     = 10
     email = "nickhonen@gmail.com"
     opengraph = true
     shareTwitter = true
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
     enableSharingButtons = true
 
   # Metadata mostly used in document's head
-    description = "A guru"
+    description = "personal portfolio and blog of Nicholas Honen"
     headline = "nickhonens blog"
     intro = true
-    keywords = "homepage, blog, portfolio"
+    keywords = "homepage, blog, portfolio, developer, software engineer, self-taught"
     images = [""]
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/nickhonen"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/nickhonen4"
+
+ 
+ 
 
 # Fixes bug I think
 [taxonomies]
   tag      = "tags"
   category = "categories"
 
-  # And you can even create generic menu
-  # [[menu.main]]
-  #  identifier = "blog"
-  #  name       = "Blog"
-  #  url        = "/posts"
 
 
-[[params.social]]
-  icon = "github"
-  name = "My Github"
-  url = "https://github.com/nickhonen"
 
-[[params.social]]
- icon = "twitter"
-  name = "My Twitter"
-  url = "https://twitter.com/nickhonen4"
+[menu]
+[[menu.main]]
+  identifier = "progress"
+  name       = "Progress"
+  url        = "https://docs.google.com/spreadsheets/d/1ft73AihxztEmsxfD29WYLCMsv73oqUOMzKgksdcsKLI/edit?usp=sharing"
 
- 
+[[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/posts"
+
+
+
 
 
