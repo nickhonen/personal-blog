@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://hungry-hawking-a38a0f.netlify.app/"
 title        = "My blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
