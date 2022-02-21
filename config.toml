@@ -1,0 +1,38 @@
+baseurl      = "localhost"
+title        = "My blog"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+    dateform        = "Mon, Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "01-02-2006"
+
+  # Subtitle for home
+    homeSubtitle = "A simple and beautiful blog"
+    
+    github = "https://github.com/nickhonen"   
+    twitter = "https://twitter.com/nickhonen4"
+    email = "nickhonen@gmail.com"
+    opengraph = true
+    shareTwitter = true
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+    enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+    description = "A guru"
+    headline = "nickhonens blog"
+    intro = true
+    keywords = "homepage, blog, portfolio"
+    images = [""]
+
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
