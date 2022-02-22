@@ -1,4 +1,4 @@
-baseurl      = "https://hungry-hawking-a38a0f.netlify.app/"
+baseurl      = "https://nickhonen.com/"
 title        = "nickhonen's blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -11,11 +11,9 @@ paginate     = 10
 
   # Subtitle for home
     homeSubtitle = "coming 02-22-2022"
-    
     github = "https://github.com/nickhonen"   
     twitter = "https://twitter.com/nickhonen4"
     leetcode = "https://leetcode.com/nickhonen/"
-    email = "nickhonen@gmail.com"
     opengraph = true
     shareTwitter = true
     disableReadOtherPosts = false
@@ -46,22 +44,12 @@ paginate     = 10
   tag      = "tags"
   category = "categories"
 
-[menu]
-[[menu.main]]
-  identifier = "progress"
-  name       = "Progress"
-  url        = "https://docs.google.com/spreadsheets/d/1ft73AihxztEmsxfD29WYLCMsv73oqUOMzKgksdcsKLI/edit?usp=sharing"
-
-# posts is a default taxonomy of hugo, not gonna mess with it for now.
 [[menu.main]]
   identifier = "blog"
   name       = "Posts"
   url        = "/posts"
-  weight = -110
-  [menu.main.params]
-    class = 'highlight-menu-item'
 
-
-
-
-
+[[menu.main]]
+  identifier = "progress"
+  name       = "Progress"
+  url        = "https://docs.google.com/spreadsheets/d/1ft73AihxztEmsxfD29WYLCMsv73oqUOMzKgksdcsKLI/edit?usp=sharing"
