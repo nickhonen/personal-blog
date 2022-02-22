@@ -44,12 +44,13 @@ paginate     = 10
   tag      = "tags"
   category = "categories"
 
-[[menu.main]]
-  identifier = "blog"
-  name       = "Posts"
-  url        = "/posts"
-
+[menu]
 [[menu.main]]
   identifier = "progress"
   name       = "Progress"
   url        = "https://docs.google.com/spreadsheets/d/1ft73AihxztEmsxfD29WYLCMsv73oqUOMzKgksdcsKLI/edit?usp=sharing"
+
+[[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/posts"
