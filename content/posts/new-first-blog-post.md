@@ -2,8 +2,8 @@
 title: "Testing markdown"
 description: "the woes associated with creating this website"
 date: 2022-02-21T17:17:04-05:00
-author: Nicholas Honen
-draft: true
+author: "Nicholas Honen"
+draft: false
 toc: false
 images:
 tags:
