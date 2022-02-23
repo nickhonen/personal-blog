@@ -13,7 +13,7 @@ author       = "Nicholas Honen"
 
 
   # Subtitle for home
-    homeSubtitle = "Programmer in the making"
+    homeSubtitle = "Loading..."
     github = "https://github.com/nickhonen"   
     twitter = "https://twitter.com/nickhonen4"
     leetcode = "https://leetcode.com/nickhonen/"
@@ -41,8 +41,9 @@ author       = "Nicholas Honen"
   # A better internet.
   # Uncomment this to enable Commento.
   
-  # [params.commentoURL]
-  #   url = "https://nickhonen.com"
+  [params.commentoURL]
+    path = "/layouts/partials/commento.html"
+    url = "https://nickhonen.com"
 
 #  [params.portrait]
 #     path     = "/img/image.jpg"
