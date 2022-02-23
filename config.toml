@@ -42,10 +42,7 @@ author       = "Nicholas Honen"
   # Uncomment this to enable Commento.
   
   [params.commentoURL]
-    url = "/layouts/partials/commento.html"
-  
-
-
+    url = ""
 
 #  [params.portrait]
 #     path     = "/img/image.jpg"
