@@ -1,31 +1,57 @@
 baseurl      = "https://nickhonen.com/"
-title        = "nickhonen's blog"
+title        = "Nicholas Honen"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+author       = "Nicholas Honen"
 
 [params]
     dateform        = "Mon, Jan 2, 2006"
     dateformShort   = "Jan 2"
     dateformNum     = "01-02-2006"
+    dateformNumTime = "01-02-2006 3:05PM"
+
 
   # Subtitle for home
-    homeSubtitle = "coming 02-22-2022"
+    homeSubtitle = "Programmer in the making"
     github = "https://github.com/nickhonen"   
     twitter = "https://twitter.com/nickhonen4"
     leetcode = "https://leetcode.com/nickhonen/"
     opengraph = true
     shareTwitter = true
     disableReadOtherPosts = false
+    mainSections = ["posts"]
 
-    enableSharingButtons = true
+    enableThemeToggle = true
+
+    enableSharingButtons = false
 
   # Metadata mostly used in document's head
     description = "personal portfolio and blog of Nicholas Honen"
     headline = "nickhonens blog"
     intro = true
-    keywords = "homepage, blog, portfolio, developer, software engineer, self-taught"
+    keywords = "homepage, blog, portfolio, developer, software engineer, self-taught, albany, new york, tutor, full stack"
     images = [""]
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  
+  [params.commentoURL]
+    url = "/layouts/partials/commento.html"
+  
+
+
+
+#  [params.portrait]
+#     path     = "/img/image.jpg"
+#     alt      = "Portrait"
+#     maxWidth = "50px"
+
 
 [[params.social]]
   name = "github"
@@ -44,13 +70,19 @@ paginate     = 10
   tag      = "tags"
   category = "categories"
 
-[menu]
+# About section when I add it, need to make an about.md in the root of content folder
+# [[menu.main]]
+#   identifier = "about"
+#   name = "about"
+#   title = "About"
+#   url = "/about"
+
 [[menu.main]]
   identifier = "progress"
-  name       = "Progress"
+  name       = "progress"
   url        = "https://docs.google.com/spreadsheets/d/1ft73AihxztEmsxfD29WYLCMsv73oqUOMzKgksdcsKLI/edit?usp=sharing"
 
 [[menu.main]]
   identifier = "blog"
-  name       = "Blog"
+  name       = "posts"
   url        = "/posts"

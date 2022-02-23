@@ -7,7 +7,8 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - markdown
+  - technical
 ---
 
 ## First post!
@@ -15,6 +16,7 @@ tags:
 I started a blog, finally. Been putting this off for as long as I've been programming, for whatever reason. The task of making one from scratch seemed daunting, I didn't know where to start, would anyone even care, would people judge me, were a few of the reasons that held me back for a while. However, life is too damn short to spend time worrying about starting a blog, when I can just sit down and write!
 
 Gonna mess about with markdown for the rest of this test post as I've never used it before! Just want to see if I have a handle on everything.
+
 
 
 ### I wonder what code highlighting looks like here
