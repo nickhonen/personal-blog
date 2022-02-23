@@ -5,7 +5,6 @@ date: 2022-02-21T17:17:04-05:00
 author: "Nicholas Honen"
 draft: false
 toc: false
-images:
 tags:
   - markdown
   - technical

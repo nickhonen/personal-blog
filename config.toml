@@ -41,8 +41,8 @@ author       = "Nicholas Honen"
   # A better internet.
   # Uncomment this to enable Commento.
   
-  [params.commentoURL]
-    url = ""
+  # [params.commentoURL]
+  #   url = "https://nickhonen.com"
 
 #  [params.portrait]
 #     path     = "/img/image.jpg"
