@@ -17,7 +17,6 @@ I started a blog, finally. Been putting this off for as long as I've been progra
 Gonna mess about with markdown for the rest of this test post as I've never used it before! Just want to see if I have a handle on everything.
 
 
-
 ### I wonder what code highlighting looks like here
 
 ```javascript

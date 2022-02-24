@@ -122,17 +122,14 @@
 
     {{ partial "pagination-single.html" . }}
 
-    {{ if .Site.DisqusShortname }}
-      {{ if not (eq .Params.Comments "false") }}
-        <div id="comments">
-          {{ template "_internal/disqus.html" . }}
-        </div>
-      {{ end }}
-    {{ end }}
+    {{ partial "commento.html" . }}
+
 
     {{ if .Site.Params.Commento.Url }}
       <script defer src={{ .Site.Params.Commento.Url }}></script>
-      <div id="commento"></div>
+      <div id="commento">
+        {{ partial "commento.html" . }}
+      </div>
     {{ end }}
 
   </main>

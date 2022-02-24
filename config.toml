@@ -21,6 +21,8 @@ author       = "Nicholas Honen"
     shareTwitter = true
     disableReadOtherPosts = false
     mainSections = ["posts"]
+    readMore = true
+    disbleSummary = false
 
     enableThemeToggle = true
 
@@ -40,10 +42,8 @@ author       = "Nicholas Honen"
   # An internet that is focused on interesting discussions, not ads. 
   # A better internet.
   # Uncomment this to enable Commento.
-  
-  [params.commentoURL]
-    path = "/layouts/partials/commento.html"
-    url = "https://nickhonen.com"
+[params.commento]
+url = ""
 
 #  [params.portrait]
 #     path     = "/img/image.jpg"
@@ -84,3 +84,15 @@ author       = "Nicholas Honen"
   identifier = "blog"
   name       = "posts"
   url        = "/posts"
+
+[params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
