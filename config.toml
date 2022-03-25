@@ -87,7 +87,7 @@ url = ""
 
 [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "$cd ~"
     logoHomeLink = "/"
 
     # Set true to remove the logo cursor entirely.
