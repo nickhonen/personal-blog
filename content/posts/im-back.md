@@ -2,7 +2,7 @@
 title: "Project-block"
 description: "or maybe coders block is a better name"
 date: 2022-03-24T21:14:21-04:00
-draft: true
+draft: false
 author: "Nicholas Honen"
 toc: false
 tags:

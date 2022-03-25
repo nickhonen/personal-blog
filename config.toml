@@ -13,7 +13,7 @@ author       = "Nicholas Honen"
 
 
   # Subtitle for home
-    homeSubtitle = "Loading..."
+    homeSubtitle = "21 years old, learning how to engineer software"
     github = "https://github.com/nickhonen"   
     twitter = "https://twitter.com/nickhonen4"
     leetcode = "https://leetcode.com/nickhonen/"
@@ -29,7 +29,7 @@ author       = "Nicholas Honen"
     enableSharingButtons = false
 
   # Metadata mostly used in document's head
-    description = "personal portfolio and blog of Nicholas Honen"
+    description = "Nicholas Honen blog, documenting my progress learning web development"
     headline = "nickhonens blog"
     intro = true
     keywords = "homepage, blog, portfolio, developer, software engineer, self-taught, albany, new york, tutor, full stack"
