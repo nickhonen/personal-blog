@@ -121,9 +121,8 @@
     {{- end }}
 
     {{ partial "pagination-single.html" . }}
-
+      
     {{ partial "commento.html" . }}
-
 
     {{ if .Site.Params.Commento.Url }}
       <script defer src={{ .Site.Params.Commento.Url }}></script>
