@@ -1,7 +1,7 @@
 baseurl      = "https://nickhonen.com/"
 title        = "Nicholas Honen"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
+theme        = "PaperMod"
 paginate     = 10
 author       = "Nicholas Honen"
 
