@@ -29,75 +29,16 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
+                - name: About
+                  url: about/
+                  weight: 5
+                - name: Resume
                   url: tags/
                   weight: 10
-                - name: Categories
-                  url: categories/
+                - name: Projects
+                  url: Projects/
                   weight: 10
 
-    fr:
-        languageName: ":fr:"
-        languageAltTitle: French
-        weight: 2
-        title: PaperModL2
-        taxonomies:
-          category: FRcategories
-          tag: FRtags
-          series: FRseries
-        profileMode:
-            enabled: true
-            title: PaperMod
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Tags
-                  url: tags
-        menu:
-            main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: FRTags
-                  url: frtags
-                  weight: 10
-                - name: FRCategories
-                  url: frcategories
-                  weight: 10
-                - name: FRSeries
-                  url: frseries
-                  weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
-
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        taxonomies:
-          category: FAcategories
-          tag: FAtags
-          series: FAseries
-        menu:
-            main:
-                - name: FATags
-                  url: fatags
-                  weight: 10
 
 outputs:
     home:
@@ -108,12 +49,12 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Yo"
-    author: Theme PaperMod
+    author: "Nicholas Honen"
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
@@ -122,7 +63,7 @@ params:
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
-    # comments: false
+    comments: true
     images: ["papermod-cover.png"]
 
     profileMode:
@@ -139,21 +80,23 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "Welcome!"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
+            - My name is Nick, I'm currently finishing up my 
+            Computer Science education and this is my personal blog and portfolio. I write
+            sporadically, but it's usually something relating to motivation, technical difficulties
+            I've ran into, or anything else I can't get off my mind.
+            
+            - If you want to know more about me, see my [about](https://nickhonen.com/about)
+            page, and my portfolio is showcased at my [projects](https://nickhonen.com/projects) page. 
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
+            - Currently looking for any internships or full-time job opportunities, if you're
+            interested please email me at nickhonen@gmail.com.
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
+          url: "https://github.com/nickhonen"
+        - name: twitter
+          url: "https://twitter.com/nickhonen4"
         - name: RsS
           url: "index.xml"
 
@@ -182,7 +125,7 @@ params:
     #     hidden: true # hide everywhere but not in structured data
     #     hiddenInList: true # hide on list pages and home
     #     hiddenInSingle: true # hide on single page
-
+    
     # fuseOpts:
     #     isCaseSensitive: false
     #     shouldSort: true
