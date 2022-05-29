@@ -1,5 +1,6 @@
-baseURL: "localhost:1313" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "nickhonen.com" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Nicholas Honen
+subtitle: "Please hire me"
 paginate: 5
 theme: PaperMod
 
@@ -33,7 +34,7 @@ languages:
                   url: about/
                   weight: 5
                 - name: Resume
-                  url: tags/
+                  url: 'https://drive.google.com/file/d/1_3opMYypbv8QfJMKQxiZXZ-O-jrAiTdP/view?usp=sharing'
                   weight: 10
                 - name: Projects
                   url: Projects/
@@ -90,8 +91,9 @@ params:
             - If you want to know more about me, see my [about](https://nickhonen.com/about)
             page, and my portfolio is showcased at my [projects](https://nickhonen.com/projects) page. 
 
-            - Currently looking for any internships or full-time job opportunities, if you're
-            interested please email me at nickhonen@gmail.com.
+            - Currently looking for any internships or full-time job opportunities, check out
+            my [resume](insert resume here) and if you're interested please email me at 
+            nickhonen@gmail.com.
     socialIcons:
         - name: github
           url: "https://github.com/nickhonen"
@@ -125,7 +127,7 @@ params:
     #     hidden: true # hide everywhere but not in structured data
     #     hiddenInList: true # hide on list pages and home
     #     hiddenInSingle: true # hide on single page
-    
+
     # fuseOpts:
     #     isCaseSensitive: false
     #     shouldSort: true
