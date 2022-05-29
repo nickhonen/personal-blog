@@ -30,15 +30,10 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
-                - name: About
-                  url: about/
+                - identifier: about
+                  name: About
+                  url: about
                   weight: 5
-                - name: Resume
-                  url: 'https://drive.google.com/file/d/1_3opMYypbv8QfJMKQxiZXZ-O-jrAiTdP/view?usp=sharing'
-                  weight: 10
-                - name: Projects
-                  url: Projects/
-                  weight: 10
 
 
 outputs:
@@ -65,7 +60,7 @@ params:
     ShowRssButtonInSectionTermList: true
     ShowToc: true
     comments: true
-    images: ["papermod-cover.png"]
+    images: ["static/youngnicksquare.png"]
 
     profileMode:
         enabled: false
@@ -81,18 +76,17 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Welcome!"
+        Title: "👋🏾"
         Content: >
             - My name is Nick, I'm currently finishing up my 
-            Computer Science education and this is my personal blog and portfolio. I write
-            sporadically, but it's usually something relating to motivation, technical difficulties
-            I've ran into, or anything else I can't get off my mind.
+            Computer Science education. Right now, I'm interested in backend/full-stack development, and I'm 
+            messing around with some light data analysis. Welcome to my personal website/blog!
             
             - If you want to know more about me, see my [about](https://nickhonen.com/about)
-            page, and my portfolio is showcased at my [projects](https://nickhonen.com/projects) page. 
+            page, and you can find my projects on my Github at the link below (projects page coming soon on here). 
 
             - Currently looking for any internships or full-time job opportunities, check out
-            my [resume](insert resume here) and if you're interested please email me at 
+            my [resume](https://drive.google.com/file/d/1_3opMYypbv8QfJMKQxiZXZ-O-jrAiTdP/view?usp=sharing) and if you're interested please email me at 
             nickhonen@gmail.com.
     socialIcons:
         - name: github
@@ -102,10 +96,10 @@ params:
         - name: RsS
           url: "index.xml"
 
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    # editPost:
+    #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
 
     # label:
     #     text: "Home"
