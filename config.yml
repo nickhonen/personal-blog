@@ -78,9 +78,7 @@ params:
     homeInfoParams:
         Title: "👋🏾"
         Content: >
-            - My name is Nick, I'm currently finishing up my 
-            Computer Science education. Right now, I'm interested in backend/full-stack development, and I'm 
-            messing around with some light data analysis. Welcome to my personal website/blog!
+            - My name is Nick, and I'm an aspiring software engineer. Welcome to my personal website/blog!
             
             - If you want to know more about me, see my [about](https://nickhonen.com/about)
             page, and you can find my projects on my Github at the link below (projects page coming soon on here). 

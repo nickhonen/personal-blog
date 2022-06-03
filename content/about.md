@@ -5,4 +5,4 @@ url: "/about/"
 description: "d"
 ---
 
-Yo. Hopefuly some of this fucking renders and of course its not.
+Hey, my name is Nick. I'm currently finishing up my CS de
