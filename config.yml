@@ -78,14 +78,12 @@ params:
     homeInfoParams:
         Title: "👋🏾"
         Content: >
-            - My name is Nick, and I'm an aspiring software engineer. Welcome to my personal website/blog!
-            
-            - If you want to know more about me, see my [about](https://nickhonen.com/about)
-            page, and you can find my projects on my Github at the link below (projects page coming soon on here). 
+            - Nice to meet you! My name is Nick, and welcome to my personal website/blog!
 
-            - Currently looking for any internships or full-time job opportunities, check out
-            my [resume](https://drive.google.com/file/d/1_3opMYypbv8QfJMKQxiZXZ-O-jrAiTdP/view?usp=sharing) and if you're interested please email me at 
-            nickhonen@gmail.com.
+            - If you want to know more about me, see my [about](https://nickhonen.com/about)
+            page, and you can find my work on GitHub by clicking on the icon below (projects page coming soon probably). 
+
+            - Best way to reach me is email: nickhonenwork@gmail.com. 
     socialIcons:
         - name: github
           url: "https://github.com/nickhonen"
