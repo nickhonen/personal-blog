@@ -2,6 +2,7 @@
 title: "About"
 layout: "about"
 url: "/about/"
+toc: false
 description: ""
 ---
 <br>
@@ -12,7 +13,7 @@ Looking for any and all full-time job opportunities. If you're looking for a dri
 
 
 
-{{< figure src="/youngnick.png" caption="**Me cheesing after solving P versus NP, circa 2004**">}}
+{{< figure src="/youngnick.png" caption="**Me smiling after solving P versus NP, circa 2004**">}}
 
 
 ## Now
