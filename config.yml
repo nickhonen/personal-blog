@@ -78,10 +78,10 @@ params:
     homeInfoParams:
         Title: "👋🏾"
         Content: >
-            - Nice to meet you! My name is Nick, and welcome to my personal website/blog!
+            - Nice to meet you! My name is Nick, I'm a 22 year old programmer and welcome to my personal website/blog!
 
             - If you want to know more about me, see my [about](https://nickhonen.com/about)
-            page, and you can find my work on GitHub by clicking on the icon below (projects page coming soon probably). 
+            page. Adding a projects page soon.
 
             - Best way to reach me is email: nickhonenwork@gmail.com. 
     socialIcons:

@@ -1,7 +1,7 @@
 ---
 title: "Getting Uncomfortable"
 date: 2022-02-23T20:12:19-05:00
-draft: false
+draft: true
 description: "my experience learning without doing"
 toc: false
 images:
