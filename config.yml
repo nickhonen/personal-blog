@@ -58,7 +58,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
+    ShowToc: false
     comments: true
     images: ["static/youngnicksquare.png"]
 
@@ -78,10 +78,10 @@ params:
     homeInfoParams:
         Title: "👋🏾"
         Content: >
-            - Nice to meet you! My name is Nick, I'm a 22 year old programmer and welcome to my personal website/blog!
+            - Nice to meet you! My name is Nick, and I'm a 22 year old programmer. Welcome to my personal website/blog!
 
             - If you want to know more about me, see my [about](https://nickhonen.com/about)
-            page. Adding a projects page soon.
+            page. Will likely be adding a projects page soon. 
 
             - Best way to reach me is email: nickhonenwork@gmail.com. 
     socialIcons:
